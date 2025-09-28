@@ -1,20 +1,20 @@
-// #include <stdio.h>
-// int main(){
+#include <stdio.h>
+int main(){
 
-//     int a ;
-//     scanf("%d",&a);
-//     switch (a)
-//     {
-//     case 1:
-//         printf("hello");
-//         break;
+    int a ;
+    scanf("%d",&a);
+    switch (a)
+    {
+    case 1:
+        printf("hello");
+        break;
 
-//     case 2:
-//         printf("hiii");
-//     default:
-//     printf("heheh");
-//         break;
+    case 2:
+        printf("hiii");
+    default:
+    printf("heheh");
+        break;
 
-//     }
-//     return 0;
-// }
+    }
+    return 0;
+}

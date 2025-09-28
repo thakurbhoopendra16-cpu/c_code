@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int size = 7; // Size of the square 2D array
+    char zPattern[size][size];
+
+    // Fill the array with spaces first
+    for (int i = 0; i < size; i++)
+        for (int j = 0; j < size; j++)
+            zPattern[i][j] = ' ';
+
+    // Fill the 'Z' pattern
+    for (int i = 0; i < size; i++) {
+        zPattern[0][i] = 'z';                 // Top row
+        zPattern[size - 1][i] = 'z';          // Bottom row
+        zPattern[i][size - i - 1] = 'z';      // Diagonal
+    }
+
+    // Print the 2D array
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++)
+            printf("%c ", zPattern[i][j]);
+        printf("\n");
+    }
+
+    return 0;
+}
