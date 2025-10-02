@@ -1,0 +1,1 @@
+//find the minimum number in given array
