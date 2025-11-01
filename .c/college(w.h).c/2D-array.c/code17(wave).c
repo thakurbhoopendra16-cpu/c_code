@@ -25,7 +25,8 @@ for(int i=0 ; i<3 ; i++)
 
            }
         }
-           else
+          
+         else
            {
             for(int j =2 ; j>=0 ; j--)
             {
@@ -36,5 +37,6 @@ for(int i=0 ; i<3 ; i++)
             printf("\n");
         }
        
+   
     }
 
